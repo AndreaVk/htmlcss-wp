@@ -4,13 +4,11 @@
     box-sizing: border-box;
     font-family: century gothic;
 }
-
+/* header */
 header{
     margin: auto;
     width: 90%;
 }
-
-
 
 .headertop{
     width: 100%;
@@ -42,10 +40,6 @@ nav{
     line-height: 80px;
 }
 
-.debug nav{
-    height: 60px;
-}
-
 .headerbottom{
     background-image: url(../img/banner.jpg);
     background-size: cover;
@@ -69,7 +63,8 @@ nav{
     font-weight: lighter;
     font-size: 30px;
 }
-
+/* fine header */
+/* inizio main */
 main{
     margin: auto;
     width: 90%;
@@ -128,16 +123,12 @@ h2{
     height: 640px;
     margin-top: 20px; 
 }
-
+/* fine main */
+/* inizio footer */
 footer{
     width: 90%;
     margin: auto;
     height:60px;
-}
-
-footer.debug{
-    background-color: purple;
-    
 }
 
 h4{
@@ -155,3 +146,15 @@ h4{
 .ipsum{
     color: rgba(0,0,0, 0.6);
 }
+
+.end{
+    position: relative;
+}
+
+.foot{
+    line-height: 60px;
+    margin-left: 50%;
+    font-size: 14px;
+    
+}
+/* fine footer ed esercizio */
