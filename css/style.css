@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: century gothic;
 }
 
 header{
@@ -15,14 +16,38 @@ header{
     height: 400px;
 }
 
-.headertop.debug{
-    background-color: violet;
-    height: 200px;
-}
-
 .headertop{
     width: 100%;
     margin-bottom: 25px;
+}
+
+.first{
+    height: 71px;
+    width: 160px;
+    background-color: white;
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+.logo{
+    height: 60px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    margin-right: 15px;
+    color: rgba(0,0,0, 0.5);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav{
+    line-height: 80px;
+}
+
+.debug nav{
+    height: 60px;
 }
 
 .headerbottom{
@@ -33,7 +58,7 @@ header{
 }
 
 body{
-    padding:20px;
+    
 }
 
 main{
