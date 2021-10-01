@@ -10,11 +10,7 @@ header{
     width: 90%;
 }
 
-/* header degub (da togliere) */
-.headerbottom.debug{
-    background-color: rgb(226, 226, 90);
-    height: 400px;
-}
+
 
 .headertop{
     width: 100%;
@@ -54,12 +50,24 @@ nav{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     border-radius: 8px;
+    background-position: center;
+    height:650px ;
+    position: relative;
     
-  
 }
 
-body{
+
+.text1{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
     
+}
+
+.title{
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
 }
 
 main{
